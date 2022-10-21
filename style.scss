@@ -1,0 +1,64 @@
+$color-principal:#2c3e50;
+$color-letra: #fff;
+
+.w-100{
+    
+        width: auto; 
+        height: 500px;
+    
+}
+
+#navbar{
+    background-color: $color-principal;
+}
+
+.who {
+    background: $color-principal; 
+    color: $color-letra;
+    p { 
+        max-width: 1055px; 
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+}
+
+
+
+#servicios{
+   
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(52, 73, 94, 0.88) 57%);
+
+    .card-border{
+        border: solid 10px white;
+        border-radius: 20px;
+        overflow: hidden;
+        transition: all ease-out 0.2s;
+        
+    }
+    .card-border:hover{
+        transform: scale(1.05);
+    }
+    .pt-5{
+        padding-bottom: 0;
+        justify-content: center;
+    }
+
+   
+}
+
+.footer {
+	
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: $color-principal;
+	color: $color-letra; 
+	text-align: center;
+	margin-top: 30px;
+    p {
+        display: inline;
+        margin-right: 50px;
+  }
+
+  
+}
